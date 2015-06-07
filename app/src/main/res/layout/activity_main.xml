@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text=" Android Nanodegree Apps by addEpic" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:id="@+id/header" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/spotifyStreamer"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openSpotify"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Football Scores"
+        android:id="@+id/footballScores"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/spotifyStreamer"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openFootball"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:id="@+id/library"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/footballScores"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openLibrary"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/buildItBigger"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/library"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openBuild"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/xyzReader"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/buildItBigger"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openXyz"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/capstone"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_below="@+id/xyzReader"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openCapstone"/>
+
+</RelativeLayout>
